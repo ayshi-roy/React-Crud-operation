@@ -1,0 +1,89 @@
+.content{
+    font-family: sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+}
+.form{
+    background-color:#3333 ;
+    text-align: center;
+    margin: 5px;
+    padding: 10px ;
+    border-radius: 20px;
+    width: 100%;
+    height: 570px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+}
+.upload-btn input[type="file"] {
+    display: none;
+}
+
+.upload-btn {
+    border: 1px solid #009444;
+    background-color: #deffed;
+    color: #009444;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#btn {    
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+    text-transform: capitalize;
+    transition: width 5s;
+   }
+
+   .login {
+    outline: none;
+    border: none;
+    width: 95%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    background-color: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+   }
+   .login:hover {
+    background-color: #2fdbb6;
+   }
+   .login:active{
+    background-color: #1da88a;
+   }
+   input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 10px 5px 15px 5px;
+    width: 95%;
+   }
+   textarea{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 10px 5px 15px 5px;
+    width: 95%;
+   }
+   .name{
+    margin: 20px 0 50px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+   }   

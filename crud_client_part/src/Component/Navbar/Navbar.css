@@ -1,0 +1,29 @@
+.navbar{
+    height: 4rem;
+    background-image: linear-gradient(to right,#F70909,#F73809,#FB6704,#FBB004,#FBFB04);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-semi);
+  }
+.nav_nam{    
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+  
+  .nav-link:hover{
+    position: relative;
+  }
+  .nav-link:hover::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: #4070F4;
+  }
+  .navbar-brand{
+    color: #0E2431;  
+  }
